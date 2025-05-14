@@ -73,3 +73,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Assets/Plugin
+
+# issue #2
+/Assets/Extension/ThirdParty/DebugGUI
+/Assets/Extension/ThirdParty/DebugGUI.meta
