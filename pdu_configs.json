@@ -1,0 +1,32 @@
+[
+  {
+    "pdu_type_name": "zumo_msgs/ZumoPduSensor",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/zumo_msgs/ZumoPduSensor.json"
+  },
+  {
+    "pdu_type_name": "ZumoPduSensor",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/zumo_msgs/ZumoPduSensor.json"
+  },
+  {
+    "pdu_type_name": "zumo_msgs/ZumoPduActuator",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/zumo_msgs/ZumoPduActuator.json"
+  },
+  {
+    "pdu_type_name": "ZumoPduActuator",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/zumo_msgs/ZumoPduActuator.json"
+  },
+  {
+    "pdu_type_name": "time",
+    "fields": null,
+    "pdu_data_field_path": "./ros_types/json/builtin_interfaces/Time.json"
+  },
+  {
+    "pdu_type_name": "HakoniwaSimTime",
+    "fields": null,
+    "pdu_data_field_path": "./HakoniwaSimTime.json"
+  }
+]

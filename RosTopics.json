@@ -1,0 +1,21 @@
+{
+  "robot_num": 2,
+  "ros_robot_num": 0,
+  "hakoenv_num": 0,
+  "fields": [
+    {
+      "topic_message_name": "ZumoRoboModel_sensor",
+      "topic_type_name": "zumo_msgs/ZumoPduSensor",
+      "robot_name": "ZumoRoboModel",
+      "sub": false,
+      "pub_option": null
+    },
+    {
+      "topic_message_name": "ZumoRoboModel_actuator",
+      "topic_type_name": "zumo_msgs/ZumoPduActuator",
+      "robot_name": "ZumoRoboModel",
+      "sub": true,
+      "pub_option": null
+    }
+  ]
+}

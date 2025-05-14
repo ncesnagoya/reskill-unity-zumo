@@ -1,0 +1,10 @@
+{
+  "core_ipaddr": null,
+  "core_portno": 50051,
+  "asset_timeout": 3,
+  "inside_assets_path": ".",
+  "outside_assets_path": ".",
+  "pdu_bin_path": "./ros_types/bin",
+  "mmap_bus_size": 1048576,
+  "SymTimeMeasureFilePath": "HakoniwaSimTime.json"
+} 

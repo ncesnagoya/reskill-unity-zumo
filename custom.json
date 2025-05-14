@@ -1,0 +1,42 @@
+{
+  "robots": [
+    {
+      "name": "ZumoRoboModel",
+      "rpc_pdu_readers": [
+        {
+          "type": "zumo_msgs/ZumoPduActuator",
+          "org_name": "actuator",
+          "name": "ZumoRoboModel_actuator",
+          "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+          "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+          "channel_id": 1,
+          "pdu_size": 24,
+          "write_cycle": 1,
+          "method_type": "UDP"
+        }
+      ],
+      "rpc_pdu_writers": [
+        {
+          "type": "zumo_msgs/ZumoPduSensor",
+          "org_name": "sensor",
+          "name": "ZumoRoboModel_sensor",
+          "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+          "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+          "channel_id": 0,
+          "pdu_size": 104,
+          "write_cycle": 1,
+          "method_type": "UDP"
+        }
+      ],
+      "shm_pdu_readers": [],
+      "shm_pdu_writers": []
+    },
+    {
+      "name": "ZumoRoboTestDriver",
+      "rpc_pdu_readers": [],
+      "rpc_pdu_writers": [],
+      "shm_pdu_readers": [],
+      "shm_pdu_writers": []
+    }
+  ]
+}

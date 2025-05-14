@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ZumoRoboModel",
+    "pdu_writer_names": [
+      "ZumoRoboModel_sensorPdu"
+    ],
+    "pdu_reader_names": [
+      "ZumoRoboModel_actuatorPdu"
+    ],
+    "core_class_name": null
+  },
+  {
+    "name": "ZumoRoboTestDriver",
+    "pdu_writer_names": [],
+    "pdu_reader_names": [],
+    "core_class_name": null
+  }
+]

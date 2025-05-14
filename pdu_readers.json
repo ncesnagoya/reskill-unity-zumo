@@ -1,0 +1,11 @@
+[
+  {
+    "name": "ZumoRoboModel_actuatorPdu",
+    "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
+    "conv_class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter",
+    "path": null,
+    "conv_path": null,
+    "pdu_config_name": "zumo_msgs/ZumoPduActuator",
+    "topic_message_name": null
+  }
+]
