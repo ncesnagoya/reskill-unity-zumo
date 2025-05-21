@@ -15,9 +15,24 @@ Zumoロボットの物理シミュレーションを行い、以下の機能を�
 ## セットアップ
 
 1. このリポジトリをクローン
-2. [Plugin.zip](https://example.com/plugin/download/link) をダウンロード
+2. [Plugin.zip](https://github.com/ncesnagoya/reskill-unity-zumo/releases/download/v1.0.0/Plugin.zip) をダウンロード  
+   **注意:** このリンクはプライベートリポジトリのため、アクセス権限を持つユーザーのみが利用できます。権限をお持ちの方は、ブラウザでリンクを開いて手動でダウンロードしてください。
 3. `Assets/Plugin` フォルダに解凍したファイルを配置
 4. Unity 2022.3.16f1 以上で開く
+
+### 自動セットアップ（オプション）
+
+プラグインの自動ダウンロードと解凍のために、以下のコマンドを実行することもできます：
+
+```bash
+# スクリプトを実行可能にする
+chmod +x download-plugin.sh
+
+# スクリプトを実行
+./download-plugin.sh
+```
+
+**注意:** このスクリプトはプライベートリポジトリからファイルを取得するため、認証なしの状態では動作しません。現時点では、ブラウザから手動でプラグインをダウンロードし、`Assets/Plugin`フォルダに配置する方法をお勧めします。
 
 ## プロジェクト構造
 
@@ -45,7 +60,7 @@ Assets/
 ### テストドライバー
 
 デバッグ・テスト用の各種ドライバーが用意されています：
-dis
+
 - `ZumoMotorControllerTestDriver`: キーボードでモーター制御
 - `ZumoImuTestDriver`: IMUセンサー値表示
 - `ZumoLedTestDriver`: LED制御テスト
