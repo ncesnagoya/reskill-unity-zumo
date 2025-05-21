@@ -1,0 +1,32 @@
+{
+  "robos": [
+    {
+      "roboname": "ZumoRoboModel",
+      "robotype": "ZumoRoboModel",
+      "pos": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.0
+      },
+      "angle": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    },
+    {
+      "roboname": "ZumoRoboTestDriver",
+      "robotype": "ZumoRoboTestDriver",
+      "pos": {
+        "X": 0.0,
+        "Y": -0.63,
+        "Z": -2.45
+      },
+      "angle": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "robots": [
+    {
+      "rpc_pdu_writer_names": [],
+      "rpc_pdu_reader_names": [],
+      "name": "ZumoRoboTestDriver",
+      "rpc_endpoint_name": "ZumoRoboTestDriver",
+      "rpc_endpoint_ipaddr": "127.0.0.1",
+      "rpc_endpoint_portno": 50061,
+      "pdu_writer_names": [],
+      "pdu_reader_names": []
+    },
+    {
+      "rpc_pdu_writer_names": [
+        "ZumoRoboModel_actuator"
+      ],
+      "rpc_pdu_reader_names": [
+        "ZumoRoboModel_sensor"
+      ],
+      "name": "ZumoRoboModel",
+      "rpc_endpoint_name": "ZumoRoboModel",
+      "rpc_endpoint_ipaddr": "127.0.0.1",
+      "rpc_endpoint_portno": 50062,
+      "pdu_writer_names": [
+        "ZumoRoboModel_actuator"
+      ],
+      "pdu_reader_names": [
+        "ZumoRoboModel_sensor"
+      ]
+    }
+  ],
+  "force_sync_time": false,
+  "max_delay_msec": 100,
+  "is_debug_mode": false,
+  "is_mmap_mode": true,
+  "delta_msec": 10,
+  "max_cnt": 1
+} 

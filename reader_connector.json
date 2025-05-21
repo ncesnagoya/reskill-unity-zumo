@@ -1,0 +1,7 @@
+[
+  {
+    "name": "custom_reader_connector_0",
+    "pdu_name": "ZumoRoboModel_actuatorPdu",
+    "method_name": null
+  }
+]
