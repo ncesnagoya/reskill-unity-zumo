@@ -1,6 +1,6 @@
-2025/05/14 13:07:56.503 INFO jsonstring={
+2025/05/21 14:28:50.729 INFO jsonstring={
   "cpp_mode": "asset_rpc_cpp",
-  "cpp_asset_name": null,
+  "cpp_asset_name": "UnityAsset",
   "core_ipaddr": null,
   "core_portno": 0,
   "asset_timeout": 3,
@@ -35,7 +35,7 @@
   "param_world_config_path": null,
   "param_world_config": null
 }
-2025/05/14 13:07:56.510 INFO jsonstring=[
+2025/05/21 14:28:50.737 INFO jsonstring=[
   {
     "pdu_type_name": "zumo_msgs/ZumoPduSensor",
     "fields": null,
@@ -67,13 +67,14 @@
     "pdu_data_field_path": "./HakoniwaSimTime.json"
   }
 ]
-2025/05/14 13:07:56.512 DEBUG LoadPduConfig(): pdu_type_name=zumo_msgs/ZumoPduSensor
-2025/05/14 13:07:56.512 DEBUG LoadPduConfig(): pdu_type_name=ZumoPduSensor
-2025/05/14 13:07:56.512 DEBUG LoadPduConfig(): pdu_type_name=zumo_msgs/ZumoPduActuator
-2025/05/14 13:07:56.512 DEBUG LoadPduConfig(): pdu_type_name=ZumoPduActuator
-2025/05/14 13:07:56.512 DEBUG LoadPduConfig(): pdu_type_name=time
-2025/05/14 13:07:56.513 DEBUG LoadPduConfig(): pdu_type_name=HakoniwaSimTime
-2025/05/14 13:07:56.516 INFO jsonstring=[
+2025/05/21 14:28:50.738 DEBUG LoadPduConfig(): pdu_type_name=zumo_msgs/ZumoPduSensor
+2025/05/21 14:28:50.738 DEBUG LoadPduConfig(): pdu_type_name=ZumoPduSensor
+2025/05/21 14:28:50.739 DEBUG LoadPduConfig(): pdu_type_name=zumo_msgs/ZumoPduActuator
+2025/05/21 14:28:50.739 DEBUG LoadPduConfig(): pdu_type_name=ZumoPduActuator
+2025/05/21 14:28:50.739 DEBUG LoadPduConfig(): pdu_type_name=time
+2025/05/21 14:28:50.740 DEBUG LoadPduConfig(): pdu_type_name=HakoniwaSimTime
+2025/05/21 14:28:50.742 INFO SERVER MODE
+2025/05/21 14:28:50.743 INFO jsonstring=[
   {
     "name": "ZumoRoboModel_sensorPdu",
     "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter",
@@ -84,83 +85,83 @@
     "topic_message_name": null
   }
 ]
-2025/05/14 13:07:56.516 DEBUG LoadPduWriters(): filepath=./pdu_writers.json
-2025/05/14 13:07:56.516 DEBUG LoadPduWriters(): pdu_writers=Hakoniwa.PluggableAsset.PduWriterConfig[]
-2025/05/14 13:07:56.516 DEBUG LoadPduWriters(): topic_message_name=zumo_msgs/ZumoPduSensor
-2025/05/14 13:07:56.517 DEBUG SetPdu(): BEFORE: package_name = not stacked: zumo_msgs/ZumoPduSensor
-2025/05/14 13:07:56.517 DEBUG SetPdu(): arg_pdu_type_name = zumo_msgs/ZumoPduSensor
-2025/05/14 13:07:56.517 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.517 DEBUG type ZumoPduIrSensor[2] name irs
-2025/05/14 13:07:56.517 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.517 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduIrSensor
-2025/05/14 13:07:56.517 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:distance type=int32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduIrSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:distance type=int32
-2025/05/14 13:07:56.518 DEBUG STRUCT ARRAY:irs type=ZumoPduIrSensor[2]
-2025/05/14 13:07:56.518 DEBUG type ZumoPduLineSensor[6] name line_sensors
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG PRIMITIVE:brightness type=uint32
-2025/05/14 13:07:56.518 DEBUG STRUCT ARRAY:line_sensors type=ZumoPduLineSensor[6]
-2025/05/14 13:07:56.518 DEBUG STRUCT:imu type=ZumoPduImu
-2025/05/14 13:07:56.518 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.518 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduImu
-2025/05/14 13:07:56.518 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.519 DEBUG STRUCT:acc type=geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.519 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:x type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:y type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:z type=float64
-2025/05/14 13:07:56.519 DEBUG STRUCT:gyro type=geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.519 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:x type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:y type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:z type=float64
-2025/05/14 13:07:56.519 DEBUG STRUCT:mag type=geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.519 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
-2025/05/14 13:07:56.519 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:x type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:y type=float64
-2025/05/14 13:07:56.519 DEBUG PRIMITIVE:z type=float64
-2025/05/14 13:07:56.519 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
-2025/05/14 13:07:56.519 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
-2025/05/14 13:07:56.519 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
-2025/05/14 13:07:56.519 INFO pdu writer loaded:Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
-2025/05/14 13:07:56.519 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
-2025/05/14 13:07:56.519 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
-2025/05/14 13:07:56.519 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
-2025/05/14 13:07:56.519 INFO activate class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
-2025/05/14 13:07:56.519 DEBUG pdu_writer: ZumoRoboModel_sensorPdu
-2025/05/14 13:07:56.521 INFO jsonstring=[
+2025/05/21 14:28:50.743 DEBUG LoadPduWriters(): filepath=./pdu_writers.json
+2025/05/21 14:28:50.743 DEBUG LoadPduWriters(): pdu_writers=Hakoniwa.PluggableAsset.PduWriterConfig[]
+2025/05/21 14:28:50.743 DEBUG LoadPduWriters(): topic_message_name=zumo_msgs/ZumoPduSensor
+2025/05/21 14:28:50.744 DEBUG SetPdu(): BEFORE: package_name = not stacked: zumo_msgs/ZumoPduSensor
+2025/05/21 14:28:50.744 DEBUG SetPdu(): arg_pdu_type_name = zumo_msgs/ZumoPduSensor
+2025/05/21 14:28:50.744 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.744 DEBUG type ZumoPduIrSensor[2] name irs
+2025/05/21 14:28:50.744 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.744 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduIrSensor
+2025/05/21 14:28:50.745 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG PRIMITIVE:distance type=int32
+2025/05/21 14:28:50.745 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduIrSensor
+2025/05/21 14:28:50.745 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG PRIMITIVE:distance type=int32
+2025/05/21 14:28:50.745 DEBUG STRUCT ARRAY:irs type=ZumoPduIrSensor[2]
+2025/05/21 14:28:50.745 DEBUG type ZumoPduLineSensor[6] name line_sensors
+2025/05/21 14:28:50.745 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.745 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.745 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.745 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.745 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.745 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.745 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLineSensor
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:brightness type=uint32
+2025/05/21 14:28:50.746 DEBUG STRUCT ARRAY:line_sensors type=ZumoPduLineSensor[6]
+2025/05/21 14:28:50.746 DEBUG STRUCT:imu type=ZumoPduImu
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduImu
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG STRUCT:acc type=geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:x type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:y type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:z type=float64
+2025/05/21 14:28:50.746 DEBUG STRUCT:gyro type=geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:x type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:y type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:z type=float64
+2025/05/21 14:28:50.746 DEBUG STRUCT:mag type=geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.746 DEBUG SetPdu(): arg_pdu_type_name = geometry_msgs/Vector3
+2025/05/21 14:28:50.746 DEBUG SetPdu(): AFTER: package_name = geometry_msgs
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:x type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:y type=float64
+2025/05/21 14:28:50.746 DEBUG PRIMITIVE:z type=float64
+2025/05/21 14:28:50.746 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
+2025/05/21 14:28:50.746 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
+2025/05/21 14:28:50.746 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
+2025/05/21 14:28:50.747 INFO pdu writer loaded:Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriter
+2025/05/21 14:28:50.747 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
+2025/05/21 14:28:50.747 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
+2025/05/21 14:28:50.747 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
+2025/05/21 14:28:50.747 INFO activate class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduWriterConverter
+2025/05/21 14:28:50.747 DEBUG pdu_writer: ZumoRoboModel_sensorPdu
+2025/05/21 14:28:50.748 INFO jsonstring=[
   {
     "name": "ZumoRoboModel_actuatorPdu",
     "class_name": "Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader",
@@ -171,56 +172,56 @@
     "topic_message_name": null
   }
 ]
-2025/05/14 13:07:56.521 DEBUG SetPdu(): BEFORE: package_name = not stacked: zumo_msgs/ZumoPduActuator
-2025/05/14 13:07:56.521 DEBUG SetPdu(): arg_pdu_type_name = zumo_msgs/ZumoPduActuator
-2025/05/14 13:07:56.521 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG type ZumoPduMotor[2] name motors
-2025/05/14 13:07:56.521 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduMotor
-2025/05/14 13:07:56.521 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:power type=int32
-2025/05/14 13:07:56.521 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduMotor
-2025/05/14 13:07:56.521 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:power type=int32
-2025/05/14 13:07:56.521 DEBUG STRUCT ARRAY:motors type=ZumoPduMotor[2]
-2025/05/14 13:07:56.521 DEBUG STRUCT:led type=ZumoPduLed
-2025/05/14 13:07:56.521 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLed
-2025/05/14 13:07:56.521 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:red type=bool
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:blue type=bool
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:green type=bool
-2025/05/14 13:07:56.521 DEBUG PRIMITIVE:yellow type=bool
-2025/05/14 13:07:56.521 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
-2025/05/14 13:07:56.521 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
-2025/05/14 13:07:56.521 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
-2025/05/14 13:07:56.521 INFO pdu writer loaded:Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
-2025/05/14 13:07:56.521 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
-2025/05/14 13:07:56.521 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
-2025/05/14 13:07:56.521 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
-2025/05/14 13:07:56.521 INFO activate class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
-2025/05/14 13:07:56.521 INFO pdu reader name = ZumoRoboModel_actuatorPdu
-2025/05/14 13:07:56.522 INFO jsonstring=[
+2025/05/21 14:28:50.748 DEBUG SetPdu(): BEFORE: package_name = not stacked: zumo_msgs/ZumoPduActuator
+2025/05/21 14:28:50.748 DEBUG SetPdu(): arg_pdu_type_name = zumo_msgs/ZumoPduActuator
+2025/05/21 14:28:50.748 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG type ZumoPduMotor[2] name motors
+2025/05/21 14:28:50.748 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduMotor
+2025/05/21 14:28:50.748 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:power type=int32
+2025/05/21 14:28:50.748 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduMotor
+2025/05/21 14:28:50.748 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:power type=int32
+2025/05/21 14:28:50.748 DEBUG STRUCT ARRAY:motors type=ZumoPduMotor[2]
+2025/05/21 14:28:50.748 DEBUG STRUCT:led type=ZumoPduLed
+2025/05/21 14:28:50.748 DEBUG SetPdu(): BEFORE: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG SetPdu(): arg_pdu_type_name = ZumoPduLed
+2025/05/21 14:28:50.748 DEBUG SetPdu(): AFTER: package_name = zumo_msgs
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:red type=bool
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:blue type=bool
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:green type=bool
+2025/05/21 14:28:50.748 DEBUG PRIMITIVE:yellow type=bool
+2025/05/21 14:28:50.748 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
+2025/05/21 14:28:50.748 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
+2025/05/21 14:28:50.748 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
+2025/05/21 14:28:50.748 INFO pdu writer loaded:Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReader
+2025/05/21 14:28:50.748 INFO path= class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
+2025/05/21 14:28:50.748 INFO typeinfo=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
+2025/05/21 14:28:50.748 INFO load typeinfoHakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
+2025/05/21 14:28:50.748 INFO activate class_name=Hakoniwa.PluggableAsset.Communication.Pdu.Raw.RawPduReaderConverter
+2025/05/21 14:28:50.749 INFO pdu reader name = ZumoRoboModel_actuatorPdu
+2025/05/21 14:28:50.750 INFO jsonstring=[
   {
     "name": "custom_reader_connector_0",
     "pdu_name": "ZumoRoboModel_actuatorPdu",
     "method_name": null
   }
 ]
-2025/05/14 13:07:56.522 INFO reader connector method_name=
-2025/05/14 13:07:56.522 ERROR GetIoReader(): Can not found io_readers name=
-2025/05/14 13:07:56.522 INFO can not found connector method_name=
-2025/05/14 13:07:56.522 INFO reader connector pdu_name=ZumoRoboModel_actuatorPdu
-2025/05/14 13:07:56.523 INFO jsonstring=[
+2025/05/21 14:28:50.750 INFO reader connector method_name=
+2025/05/21 14:28:50.750 ERROR GetIoReader(): Can not found io_readers name=
+2025/05/21 14:28:50.750 INFO can not found connector method_name=
+2025/05/21 14:28:50.750 INFO reader connector pdu_name=ZumoRoboModel_actuatorPdu
+2025/05/21 14:28:50.751 INFO jsonstring=[
   {
     "name": "custom_writer_connector_0",
     "pdu_name": "ZumoRoboModel_sensorPdu",
     "method_name": null
   }
 ]
-2025/05/14 13:07:56.523 INFO can not found connector method_name=
-2025/05/14 13:07:56.524 INFO jsonstring=[
+2025/05/21 14:28:50.751 INFO can not found connector method_name=
+2025/05/21 14:28:50.752 INFO jsonstring=[
   {
     "outside_asset_name": "None",
     "reader_connector_name": "custom_reader_connector_0",
@@ -232,11 +233,11 @@
     "writer_connector_name": "custom_writer_connector_0"
   }
 ]
-2025/05/14 13:07:56.525 WARN not found writer: 
-2025/05/14 13:07:56.525 INFO PduChannelConnector :
-2025/05/14 13:07:56.525 WARN not found writer: 
-2025/05/14 13:07:56.525 INFO PduChannelConnector :custom_writer_connector_0
-2025/05/14 13:07:56.526 INFO jsonstring=[
+2025/05/21 14:28:50.752 WARN not found writer: 
+2025/05/21 14:28:50.752 INFO PduChannelConnector :
+2025/05/21 14:28:50.752 WARN not found writer: 
+2025/05/21 14:28:50.752 INFO PduChannelConnector :custom_writer_connector_0
+2025/05/21 14:28:50.754 INFO jsonstring=[
   {
     "name": "ZumoRoboModel",
     "pdu_writer_names": [
@@ -254,6 +255,7 @@
     "core_class_name": null
   }
 ]
-2025/05/14 13:07:56.526 DEBUG ZumoRoboModel :pdu io connect add writer:ZumoRoboModel_sensorPdu
-2025/05/14 13:07:56.526 DEBUG PduIoConnector AddWriter: ZumoRoboModel_sensorPdu
-2025/05/14 13:07:56.526 DEBUG ZumoRoboModel pdu io connect add reader:ZumoRoboModel_actuatorPdu
+2025/05/21 14:28:50.754 DEBUG ZumoRoboModel :pdu io connect add writer:ZumoRoboModel_sensorPdu
+2025/05/21 14:28:50.754 DEBUG PduIoConnector AddWriter: ZumoRoboModel_sensorPdu
+2025/05/21 14:28:50.754 DEBUG ZumoRoboModel pdu io connect add reader:ZumoRoboModel_actuatorPdu
+2025/05/21 14:28:50.765 INFO RegisterInsideAsset Success:ZumoRoboModel

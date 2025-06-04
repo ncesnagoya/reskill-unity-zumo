@@ -1,6 +1,6 @@
 {
   "cpp_mode": "asset_rpc_cpp",
-  "cpp_asset_name": null,
+  "cpp_asset_name": "UnityAsset",
   "core_ipaddr": null,
   "core_portno": 0,
   "asset_timeout": 3,
